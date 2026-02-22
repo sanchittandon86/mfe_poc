@@ -1,18 +1,18 @@
 {
-  "title": "لوحة التحكم",
-  "subtitle": "نظرة عامة على محفظة العميل",
+  "title": "لوحة المعلومات",
+  "subtitle": "نظرة عامة على ملف العميل",
   "portfolio": {
-    "title": "محفظة العميل",
-    "totalValue": "القيمة الإجمالية",
+    "title": "العميل ملف",
+    "totalValue": "إجمالي القيمة",
     "today": "اليوم",
-    "invested": "المستثمر",
-    "cashBalance": "الرصيد النقدي",
+    "invested": "المستثمر المبلغ",
+    "cashBalance": "النقدي الرصيد",
     "holdings": "الحيازات",
     "symbol": "الرمز",
     "name": "الاسم",
     "qty": "الكمية",
     "value": "القيمة",
     "change": "التغيير",
-    "lastUpdated": "آخر تحديث"
+    "lastUpdated": "تحديث آخر"
   }
 }
