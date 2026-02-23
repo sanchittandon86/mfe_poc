@@ -12,6 +12,7 @@ import { useAuthStore, useNotificationStore, useUnreadNotificationCount } from '
 import { Menu, User, LogOut, Bell, CheckCheck } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import type { NotificationItem } from '@/store';
+import { useTranslation } from 'react-i18next';
 
 function formatRelativeTime(timestamp: number): string {
   const sec = Math.floor((Date.now() - timestamp) / 1000);
@@ -54,12 +55,6 @@ const Header = ({ onMenuClick }: { onMenuClick: () => void }) => {
   const notifications = useNotificationStore((state) => state.notifications);
   const unreadCount = useUnreadNotificationCount();
   const markAllAsRead = useNotificationStore((state) => state.markAllAsRead);
-import { useAuthStore } from '@/store';
-import { Menu, User, LogOut } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
-
-const Header = ({ onMenuClick }: { onMenuClick: () => void }) => {
-  const user = useAuthStore((state) => state.user);
   const { t } = useTranslation();
 
   return (
