@@ -2,7 +2,7 @@
   "sidebar": {
     "greeting": "Hello!",
     "loading": "Loading...",
-    "switchToArabic": "عربي",
+    "switchToArabic": "Arabic",
     "switchToEnglish": "English",
     "logout": "Logout"
   },
