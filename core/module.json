@@ -5,14 +5,14 @@
       "path": "/dashboard",
       "label": "Dashboard",
       "icon": "LayoutDashboard",
-      "baseUrl": "http://localhost:5175"
+      "baseUrl": "https://mfe-poc-six.vercel.app"
     },
     {
       "id": "oms",
       "path": "/oms",
       "label": "Order Management",
       "icon": "ClipboardList",
-      "baseUrl": "http://localhost:5174"
+      "baseUrl": "https://mfe-poc-r22r.vercel.app"
     }
   ]
 }
